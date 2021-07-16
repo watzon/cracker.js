@@ -1,0 +1,42 @@
+{
+  "name": "cracker",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "prepublishOnly": "tsc --build tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watzon/cracker.js.git"
+  },
+  "keywords": [
+    "telegram",
+    "gram",
+    "mtproto",
+    "userbot",
+    "annotations",
+    "decorators"
+  ],
+  "author": "Chris Watson <cawatson1993@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watzon/cracker.js/issues"
+  },
+  "homepage": "https://github.com/watzon/cracker.js#readme",
+  "peerDependencies": {
+    "telegram": "^1.7.15"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.2",
+    "@types/prompts": "^2.0.14",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "prompts": "^2.4.1",
+    "stringscan": "^0.4.0"
+  }
+}
